@@ -6,7 +6,7 @@ import traceback
 from transformers import AutoTokenizer
 from sentimixturenet import SentimixtureNet
 
-HF_MODEL_URL = "https://huggingface.co/kausar57056/urdu-sarcasm-model/resolve/main/fixed_sentimixture_model.pt"
+HF_MODEL_URL = "https://huggingface.co/kausar57056/urdu-sarcasm-detector/resolve/main/fixed_sentimixture_model.pt"
 
 def catch_all_errors():
     try:
